@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredoka+One|Poiret+One&amp;subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <nav>
+                    <ul class="menu">
+                        <li><a href="index.html" class="button">Вернуться на&nbsp;главную</a></li>
+                        <li><a href="catalog.html" class="button">Перейти в&nbsp;каталог</a>
+                        </li>
+                        <li><a href="contacts.html" class="button">Перейти в&nbsp;контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="logo">
+                <a href="index.html">
+                    <h1 class="logo1">- Cvetkoff -</h1>
+                </a>
+            </div>
+
+            <h1>Контакты</h1>
+            <p>Звоните нам: <a href="tel:+990099999">+990099999</a> <br>
+                Пишите нам: <a href="mailto:12345qwerty@gmail.com">12345qwerty@gmail.com</a> <br>
+                Приходите к нам: Сенная площадь, дом 5<br>
+            </p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d999.6341042963926!2d30.31661999204673!3d59.927691569094506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963103d58027cf%3A0xd1c6eeccd3a6bca3!2z0KHQtdC90L3QsNGPINC_0LsuLCA1LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkwMDMx!5e0!3m2!1sru!2sru!4v1548257844071" width="100%" height="374" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <h1>Напишите нам</h1>
+            <fieldset>
+                <form action="textarea1.php" method="post">
+                    <input type="text" class="fio" size="30" placeholder="Иванов">
+                    <input type="text" class="fio" size="30" placeholder="Иван"> <br><br>
+                    <input type="text" class="email" size="63" placeholder="Ваш e-mail"><br><br>
+                    <p>Ваш пол:
+                        М <input type="radio" name="pol" checked>
+                        Ж <input type="radio" name="pol">
+                        Другое <input type="radio" name="pol">
+                    </p>
+                    <p><b>Введите ваш отзыв:</b></p>
+                    <p><textarea rows="20" cols="50" name="text" maxlength="500" placeholder="Текст вашего сообщения"></textarea></p>
+                    <p><input type="submit" value="Готово,отправляй">
+                        <input type="reset" value="Ой,все удалить"></p>
+                </form>
+            </fieldset>
+
+            <hr>
+        </div>
+        <div class="footer">
+            Все права защищены &copy;
+        </div>
+    </div>
+</body>
+
+</html>

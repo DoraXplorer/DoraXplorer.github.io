@@ -1,0 +1,313 @@
+table {
+    border: 1px solid #000;
+    width: 100%;
+    height: 200px;
+    border-collapse: collapse;
+    background-color: #F5F5F5;
+}
+
+td {
+    border: 0.3px solid #DCDCDC;
+    text-align: center;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+a {
+    color: black;
+
+}
+
+
+h1 {
+    background-color: #F5FFFA;
+/*    font-family: 'PT Sans Narrow', sans-serif;*/
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.shortdiscription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+
+p {
+    padding-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+    font-family: 'Comfortaa';
+}
+
+.character {
+    color: darkblue;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    font-family: sans-serif;
+    list-style-type: none;
+    list-style-image: url(img/iconfinder_Heart_132612.png)
+}
+
+
+/*КОНТАКТЫ КНОПКИ*/
+
+.input[type="text"],
+textarea {
+    color: salmon;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.fio {
+    text-transform: capitalize;
+}
+
+.email {
+    text-transform: lowercase;
+}
+
+.email::placeholder {
+    text-transform: capitalize;
+}
+
+.email:not(:placeholder-shown) {
+    background-color: pink;
+}
+
+input::-webkit-input-placeholder {
+    color: salmon !important;
+}
+
+input:-moz-placeholder {
+    color: salmon !important;
+}
+
+input:-ms-input-placeholder {
+    color: salmon !important;
+}
+
+/**/
+
+/*ГЛАВНАЯ СТРАНИЦА (КОНТЕЙНЕР.ЛОГОТИП.*/
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #F0FFF0;
+}
+
+.header {
+    height: 100px;
+    background-color: #FFFAFA;
+    position: sticky;
+    top: 0;
+}
+
+
+.content {
+    border-width: 1px;
+    border-color: #F5FFFA;
+    border-style: solid;
+    min-height: calc(100vh - 500px);
+}
+
+.footer {
+    background-color: #F5FFFA;
+    height: 100px;
+    text-align: left;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 40px;
+    height: 100px;
+}
+
+.button {
+    letter-spacing: 1px;
+}
+
+
+
+.menu li {
+    list-style-type: none;
+    border: 1px solid #898;
+    text-align: center;
+    border-radius: 100px;
+    border-color: #FFE4E1;
+    display: inline-block;
+    padding: 9px;
+    margin-top: 25px;
+    background-color: #F0FFF0;
+    margin-left: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    text-align: center;
+}
+
+.logo1 {
+    margin: 0;
+    border: 4px solid #F5F5F5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Poiret One';
+    letter-spacing: 10px;
+    background-color: #F5F5DC;
+}
+
+.maintext {
+    font-family: cursive;
+}
+
+/*
+ПСЕВДОКЛАСС ДЛЯ ОФОРМЛЕНИЯ
+.menu li:nth-child(2n) {
+    background-color: pink;
+}
+
+.menu li:nth-child(2n-1) {
+    background-color: gainsboro;
+}
+*/
+
+/*КОНЕЦ*/
+.menu a {
+    width: 100%;
+    display: block;
+}
+
+.menu li a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.menu li ul {
+    display: none;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+
+.menu li a:hover {
+    color: olivedrab;
+    text-decoration: underline;
+}
+
+/*КАТАЛОГ*/
+
+.product {
+    width: 200px;
+    height: 150px;
+    outline: 1px solid #EEE;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product a p {
+    text-align: center;
+}
+
+.product a:hover {
+    color: pink;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+/*ТОВАР ОПИСАНИЕ*/
+
+.pic {
+    float: left;
+    margin: 7px 10px 7px 7px;
+    outline: 4px solid #F0FFFF;
+    ;
+    padding: 9px;
+}
+
+.pic:hover {
+    outline: 0px;
+}
+
+.buttonclic {
+    /*    text-align: right;*/
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: black;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-image: linear-gradient(to right, #FFFFF0 10%, #FAEBD7 30%, #FFE4E1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+
+.buttonright {
+    text-align: right;
+}
+
+.buttonclic input:hover {
+    color: #F8F8FF;
+}
+
+.carousel .item {
+    background: url(img/rose.jpg) no-repeat center;
+    text-align: center;
+    height: 400px !important;
+}
+
+
+.carousel h2 {
+    color: #fff;
+    margin: 0;
+    padding-top: 50px;
+    font-size: 48px;
+}
+
+.carousel p {
+    color: #666;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+
+/*Фиксированный контейнер стрелочка*/
+
+
+/*Шрифты*/
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fredoka+One&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Kanit:400,800');
+
