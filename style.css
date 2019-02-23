@@ -4,6 +4,7 @@ table {
     height: 200px;
     border-collapse: collapse;
     background-color: #F5F5F5;
+    font-family: 'Comfortaa', cursive;
 }
 
 td {
@@ -11,6 +12,7 @@ td {
     text-align: center;
     vertical-align: top;
     padding-top: 10px;
+    font-family: 'Comfortaa', cursive;
 }
 
 a {
@@ -21,9 +23,9 @@ a {
 
 h1 {
     background-color: #F5FFFA;
-/*    font-family: 'PT Sans Narrow', sans-serif;*/
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Comfortaa', cursive;
 }
 
 
@@ -39,16 +41,18 @@ p {
     padding-left: 10px;
     text-align: justify;
     padding-right: 10px;
-    font-family: 'Comfortaa';
+    font-family: 'Comfortaa', cursive;
+}
+
+p:first-letter {
+    font-size: 50px;
 }
 
 .character {
-    color: darkblue;
     font-size: 15px;
-    font-weight: 700;
-    line-height: 30px;
+    font-weight: 600;
+    line-height: 40px;
     text-align: left;
-    font-family: sans-serif;
     list-style-type: none;
     list-style-image: url(img/iconfinder_Heart_132612.png)
 }
@@ -58,7 +62,7 @@ p {
 
 .input[type="text"],
 textarea {
-    color: salmon;
+    color: black;
     font-style: italic;
     font-size: 15px;
 }
@@ -80,26 +84,35 @@ textarea {
 }
 
 input::-webkit-input-placeholder {
-    color: salmon !important;
+    color: black !important;
 }
 
 input:-moz-placeholder {
-    color: salmon !important;
+    color: black !important;
 }
 
 input:-ms-input-placeholder {
-    color: salmon !important;
+    color: black !important;
 }
+
+fieldset p:first-letter{
+    font-size: 20px;
+}
+
+.callus:first-letter{
+    font-size: 20px;
+}
+/*  КОНЕЦ  */
 
 .buttonup {
     position: fixed;
-    right: 80px;
+    right: 100px;
     bottom: 30px;
     opacity: .3;
     background-color: #FFF5EE;
 }
 
-.buttonup a{
+.buttonup a {
     text-decoration: none;
     display: inline-block;
     border: 3px solid #D3D3D3;
@@ -108,7 +121,9 @@ input:-ms-input-placeholder {
     padding-bottom: 4px;
     padding-left: 7px;
     padding-right: 7px;
-    
+    font-family: 'Comfortaa', cursive;
+    font-weight: 200;
+
 }
 
 .buttonup:hover {
@@ -140,7 +155,11 @@ input:-ms-input-placeholder {
     border-width: 1px;
     border-color: #F5FFFA;
     border-style: solid;
-    min-height: calc(100vh - 500px);
+/*    min-height: calc(200vh - 500px);*/
+}
+
+.clr {
+    height: 100px;
 }
 
 .footer {
@@ -148,8 +167,11 @@ input:-ms-input-placeholder {
     height: 100px;
     text-align: left;
     font-size: 15px;
-    padding-top: 10px;
-    padding-left: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 800;
+    clear: both;
 }
 
 
@@ -176,7 +198,24 @@ input:-ms-input-placeholder {
     padding: 9px;
     margin-top: 25px;
     background-color: #F0FFF0;
-    margin-left: 20px;
+    margin-left: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+/*
+.menu li ul {
+    display: none;
+}
+*/
+
+.menu li:hover ul {
+    display: block;
+    opacity: .3;
+}
+
+.menu li a:hover {
+    opacity: .3;
+    text-decoration: none;
 }
 
 .logo a {
@@ -195,7 +234,8 @@ input:-ms-input-placeholder {
 }
 
 .maintext {
-    font-family: cursive;
+    font-family: 'Comfortaa', cursive;
+
 }
 
 /*
@@ -210,31 +250,18 @@ input:-ms-input-placeholder {
 */
 
 /*КОНЕЦ*/
+/*
 .menu a {
-    width: 100%;
-    display: block;
+    display: inline-block;
 }
+*/
 
 .menu li a {
     color: black;
-    font-size: 20px;
     text-decoration: none;
+    display: inline-block;
 }
 
-
-.menu li ul {
-    display: none;
-}
-
-.menu li:hover ul {
-    display: block;
-}
-
-
-.menu li a:hover {
-    color: olivedrab;
-    text-decoration: underline;
-}
 
 /*КАТАЛОГ*/
 
@@ -252,12 +279,17 @@ input:-ms-input-placeholder {
     text-align: center;
 }
 
+.product a p:first-letter{
+    font-size: 20px;
+}
+
 .product a:hover {
     color: pink;
 }
 
 .flex-container {
     display: flex;
+    padding-top: 80px;
 }
 
 .space-around {
@@ -297,13 +329,14 @@ input:-ms-input-placeholder {
 }
 
 .buttonright {
-    text-align: right;
+    text-align: left;
 }
 
-.buttonclic input:hover {
-    color: #F8F8FF;
+.buttonright:hover {
+    opacity: .5;
 }
 
+/*КАРУСЕЛЬ НА ГЛАВНОЙ СТРАНИЦЕ*/
 .carousel {
     position: relative
 }
@@ -523,12 +556,11 @@ input:-ms-input-placeholder {
         transform: rotate(360deg)
     }
 
-/*Фиксированный контейнер стрелочка*/
+    /*Фиксированный контейнер стрелочка*/
 
 
-/*Шрифты*/
-@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
-@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fredoka+One&subset=cyrillic');
-@import url('https://fonts.googleapis.com/css?family=Kanit:400,800');
-
+    /*Шрифты*/
+    @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
+    @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700');
+    @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fredoka+One&subset=cyrillic');
+    @import url('https://fonts.googleapis.com/css?family=Kanit:400,800');
