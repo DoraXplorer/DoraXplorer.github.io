@@ -91,6 +91,32 @@ input:-ms-input-placeholder {
     color: salmon !important;
 }
 
+.buttonup {
+    position: fixed;
+    right: 80px;
+    bottom: 30px;
+    opacity: .3;
+    background-color: #FFF5EE;
+}
+
+.buttonup a{
+    text-decoration: none;
+    display: inline-block;
+    border: 3px solid #D3D3D3;
+    border-radius: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+}
+
+.buttonup:hover {
+    opacity: .7;
+    background-color: #F0FFFF;
+}
+
+
 /**/
 
 /*ГЛАВНАЯ СТРАНИЦА (КОНТЕЙНЕР.ЛОГОТИП.*/
