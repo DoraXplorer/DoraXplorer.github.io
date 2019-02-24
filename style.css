@@ -17,7 +17,6 @@ td {
 
 a {
     color: black;
-
 }
 
 
@@ -95,13 +94,14 @@ input:-ms-input-placeholder {
     color: black !important;
 }
 
-fieldset p:first-letter{
+fieldset p:first-letter {
     font-size: 20px;
 }
 
-.callus:first-letter{
+.callus:first-letter {
     font-size: 20px;
 }
+
 /*  КОНЕЦ  */
 
 .buttonup {
@@ -155,7 +155,7 @@ fieldset p:first-letter{
     border-width: 1px;
     border-color: #F5FFFA;
     border-style: solid;
-/*    min-height: calc(200vh - 500px);*/
+    /*    min-height: calc(200vh - 500px);*/
 }
 
 .clr {
@@ -221,6 +221,12 @@ fieldset p:first-letter{
 .logo a {
     text-decoration: none;
     text-align: center;
+    color: black;
+}
+
+.logo a:hover {
+    text-decoration: none;
+    color: black;
 }
 
 .logo1 {
@@ -236,6 +242,22 @@ fieldset p:first-letter{
 .maintext {
     font-family: 'Comfortaa', cursive;
 
+}
+
+.greed {
+    text-align: center;
+}
+
+.greed a {
+    margin-left: 20px;
+}
+
+.greed a:hover {
+    opacity: .3;  
+}
+
+.greed a img{
+    margin-bottom: 20px;
 }
 
 /*
@@ -279,7 +301,7 @@ fieldset p:first-letter{
     text-align: center;
 }
 
-.product a p:first-letter{
+.product a p:first-letter {
     font-size: 20px;
 }
 
@@ -556,7 +578,7 @@ fieldset p:first-letter{
         transform: rotate(360deg)
     }
 
-    /*Фиксированный контейнер стрелочка*/
+    
 
 
     /*Шрифты*/
