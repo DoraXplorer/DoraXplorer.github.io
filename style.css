@@ -78,7 +78,7 @@ textarea {
     text-transform: capitalize;
 }
 
-.email:not(:placeholder-shown) {
+f .email:not(:placeholder-shown) {
     background-color: pink;
 }
 
@@ -138,6 +138,7 @@ fieldset p:first-letter {
 
 .container {
     width: 800px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
     background-color: #F0FFF0;
@@ -248,15 +249,19 @@ fieldset p:first-letter {
     text-align: center;
 }
 
+.greed h1 {
+    margin-bottom: 50px;
+}
+
 .greed a {
     margin-left: 20px;
 }
 
 .greed a:hover {
-    opacity: .3;  
+    opacity: .3;
 }
 
-.greed a img{
+.greed a img {
     margin-bottom: 20px;
 }
 
@@ -290,7 +295,6 @@ fieldset p:first-letter {
 .product {
     width: 200px;
     height: 150px;
-    outline: 1px solid #EEE;
 }
 
 .product a {
@@ -316,6 +320,10 @@ fieldset p:first-letter {
 
 .space-around {
     justify-content: space-around;
+}
+
+.imgcategory {
+    border-radius: 40px;
 }
 
 /*ТОВАР ОПИСАНИЕ*/
@@ -565,6 +573,11 @@ fieldset p:first-letter {
     text-align: center
 }
 
+.rounded-circle {
+    border-radius: 50%
+}
+
+
 @-webkit-keyframes spinner-border {
     to {
         -webkit-transform: rotate(360deg);
@@ -577,8 +590,6 @@ fieldset p:first-letter {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg)
     }
-
-    
 
 
     /*Шрифты*/
