@@ -12,6 +12,7 @@ td {
     text-align: center;
     vertical-align: top;
     padding-top: 10px;
+    height: 15px;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -25,6 +26,7 @@ h1 {
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Comfortaa', cursive;
+    text-align: center;
 }
 
 
@@ -770,8 +772,3 @@ fieldset p:first-letter {
     }
 
 
-    /*Шрифты*/
-    @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
-    @import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700');
-    @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Fredoka+One&subset=cyrillic');
-    @import url('https://fonts.googleapis.com/css?family=Kanit:400,800');
